@@ -9,9 +9,9 @@ Desenvolver um sistema que calcule notas.
 
 ## 👥 Equipe de Desenvolvimento
 - **Ana Carolina Teles** 
-- 
-- 
-- 
+- **Kaune Larissa Martins de Matos**
+- **YASMIN DA SILVA ROSA**
+- **CAROLINA FANTINEL SERRATI**
 
 ## 🛠️ Metodologia Utilizada
 Utilizamos a metodologia **Scrum**, organizando as tarefas em **Kanban**, trabalhando em ciclos curtos e sempre mantendo a documentação atualizada neste repositório. 📋⚔️
