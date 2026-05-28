@@ -1,0 +1,36 @@
+# Inicialização do programa
+print("-" * 51)
+print("PROGRAMA PARA REALIZAR O CÁLCULO DA MÉDIA DAS NOTAS")
+print("-" * 51)
+print("Bem-vindo(a)! Informe as notas abaixo. \n")
+
+# Entrada e definição de variáveis
+# Notas das provas
+nota1 = float(input("Insira a primeira nota: "))
+nota2 = float(input("Insira a segunda nota: "))
+nota3 = float(input("Insira a terceira nota: "))
+nota4 = float(input("Insira a quarta nota: "))
+
+# Processamento
+media_notas = (nota1 + nota2 + nota3 + nota4) / 4
+
+# Condicionais e saída
+if media_notas <= 4:
+    print(f"\nA média é: {media_notas:.2f}. Situação do(a) aluno(a): Reprovado(a)")
+elif media_notas <= 7:
+    print(f"\nA média é: {media_notas:.2f}. Situação do(a) aluno(a): Exame")
+
+    # Em exame (média 3.0 a 6.9)
+    nota_exame = float(input("\nInforme a nota do exame: "))
+    
+    # Nova média (Média + Nota_exame) dividida por 2
+    media_final = (media_notas + nota_exame) / 2
+    print(f"\nMédia após exame: {media_final:.2f}")
+
+    if media_final >= 5:
+        print("\nSituação: Aprovado(a) no Exame")
+    else:
+        print("\nSituação: Reprovado(a) no exame")
+
+else:
+    print(f"\nA média é: {media_notas:.2f}. Situação do(a) aluno(a): Aprovado(a)")
