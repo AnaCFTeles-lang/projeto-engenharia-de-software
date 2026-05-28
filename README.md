@@ -41,3 +41,6 @@ elif media=<7:
     print(f"{media:.2f} Exame")
 else:
     print(f"{media:.2f} Aprovado")
+#código define a media de notas do aluno 
+#tecnologias usadas: Python 
+
