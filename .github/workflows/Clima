@@ -1,0 +1,31 @@
+# =========================================
+#   WEATHER STATUS SYSTEM - Python Project
+# =========================================
+
+print("=" * 40)
+print("      WEATHER STATUS SYSTEM")
+print("=" * 40)
+
+cidade = input("Digite o nome da cidade: ")
+temperatura = float(input("Digite a temperatura atual: "))
+
+print("\nAnalisando clima...\n")
+
+if temperatura >= 35:
+    clima = "🔥 Muito Quente"
+elif temperatura >= 25:
+    clima = "☀️ Quente"
+elif temperatura >= 15:
+    clima = "🌤️ Agradável"
+elif temperatura >= 5:
+    clima = "🌧️ Frio"
+else:
+    clima = "❄️ Muito Frio"
+
+print("=" * 40)
+print(f"Cidade: {cidade}")
+print(f"Temperatura: {temperatura}°C")
+print(f"Estado do clima: {clima}")
+print("=" * 40)
+
+print("\nProjeto executado com sucesso!")
